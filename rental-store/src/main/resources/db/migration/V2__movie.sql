@@ -1,0 +1,6 @@
+CREATE TABLE movie
+(
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    type  VARCHAR(255) NOT NULL
+);
